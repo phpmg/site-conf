@@ -4,95 +4,29 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-
     <meta property="og:image" content="/assets/images/icons/og-image.jpg">
     <meta property="og:image:height" content="297">
     <meta property="og:image:width" content="567">
     <meta property="og:title" content="PHPMG Conference 2019">
     <meta property="og:description" content="PHPMG Conference 2019 o maior evento de PHP de Minas Gerais.">
-    <meta property="og:url" content="https://conf.phpsc.com.br">
-
+    <meta property="og:url" content="https://conf.phpmg.com.br">
     <link rel="apple-touch-icon" sizes="180x180" href="/assets/images/icons/apple-touch-icon.png">
     <link rel="icon" type="image/png" sizes="32x32" href="/assets/images/icons/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="/assets/images/icons/favicon-16x16.png">
     <link rel="manifest" href="/assets/images/icons/site.webmanifest">
     <link rel="mask-icon" href="/assets/images/icons/safari-pinned-tab.svg" color="#5bbad5">
     <link rel="shortcut icon" href="/assets/images/icons/favicon.ico">
-    <meta name="apple-mobile-web-app-title" content="PHPMG Conf">
+    <meta name="apple-mobile-web-app-title" content="PHPMG Conference 2019">
     <meta name="application-name" content="PHPMG Conference 2019">
     <meta name="msapplication-TileColor" content="#603cba">
     <meta name="msapplication-config" content="/assets/images/icons/browserconfig.xml">
     <meta name="theme-color" content="#ffffff">
-
     <title>PHPMG Conference 2019</title>
-
-    <!-- Google Tag Manager -->
-    <script>(function (w, d, s, l, i) {
-        w[l] = w[l] || []; w[l].push({
-            'gtm.start':
-                new Date().getTime(), event: 'gtm.js'
-        }); var f = d.getElementsByTagName(s)[0],
-            j = d.createElement(s), dl = l != 'dataLayer' ? '&l=' + l : ''; j.async = true; j.src =
-                'https://www.googletagmanager.com/gtm.js?id=' + i + dl; f.parentNode.insertBefore(j, f);
-        })(window, document, 'script', 'dataLayer', 'GTM-TFQ6LJP');</script>
-    <!-- End Google Tag Manager -->
-
-    <!-- Facebook Pixel Code -->
-    <script>
-        !function (f, b, e, v, n, t, s) {
-            if (f.fbq) return; n = f.fbq = function () {
-                n.callMethod ?
-                n.callMethod.apply(n, arguments) : n.queue.push(arguments)
-            };
-            if (!f._fbq) f._fbq = n; n.push = n; n.loaded = !0; n.version = '2.0';
-            n.queue = []; t = b.createElement(e); t.async = !0;
-            t.src = v; s = b.getElementsByTagName(e)[0];
-            s.parentNode.insertBefore(t, s)
-        }(window, document, 'script',
-            'https://connect.facebook.net/en_US/fbevents.js');
-        fbq('init', '1774530019480379');
-        fbq('track', 'PageView');
-    </script>
-    <noscript><img height="1" width="1" style="display:none"
-            src="https://www.facebook.com/tr?id=1774530019480379&ev=PageView&noscript=1" /></noscript>
-    <!-- End Facebook Pixel Code -->
-
-
-    <!-- css -->
     <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.min.css">
     <link rel="stylesheet" href="bower_components/ionicons/css/ionicons.min.css">
     <link rel="stylesheet" href="assets/css/main.css">
 </head>
 <body data-spy="scroll" data-target="#site-nav">
-    <!-- Google Tag Manager (noscript) -->
-    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-TFQ6LJP" height="0" width="0"
-            style="display:none;visibility:hidden"></iframe></noscript>
-    <!-- End Google Tag Manager (noscript) -->
-    <!-- Load Facebook SDK for JavaScript -->
-    <script>
-        window.fbAsyncInit = function () {
-            FB.init({
-                xfbml: true,
-                version: 'v3.3'
-            });
-        };
-
-        (function (d, s, id) {
-            var js, fjs = d.getElementsByTagName(s)[0];
-            if (d.getElementById(id)) return;
-            js = d.createElement(s); js.id = id;
-            js.src = 'https://connect.facebook.net/pt_BR/sdk/xfbml.customerchat.js';
-            fjs.parentNode.insertBefore(js, fjs);
-        }(document, 'script', 'facebook-jssdk'));</script>
-
-    <!-- Your customer chat code -->
-    <div class="fb-customerchat" attribution=setup_tool page_id="478179522208583"
-        logged_in_greeting="Oi! Tá com alguma dúvida, fale com a gente por aqui! "
-        logged_out_greeting="Oi! Tá com alguma dúvida, fale com a gente por aqui! "
-        greeting_dialog_display="hide">
-    </div>
-    <div id="fb-root"></div>
-    <!-- Load Facebook SDK for JavaScript -->
     <nav id="site-nav" class="navbar navbar-fixed-top navbar-custom">
         <div class="container">
             <div class="navbar-header">
@@ -126,7 +60,7 @@
                     <li><a data-scroll href="https://www.sympla.com.br" rel="no-follow" target="_blank">Inscrições</a>
                     </li>
                     <li><a data-scroll href="#partner">Patrocinadores</a></li>
-                    <li><a href="https://github.com/PHPMG/conf2018/blob/master/CONDUCT.md">Código de Conduta</a> </li>
+                    <li><a href="https://github.com/phpmg/documentos/blob/master/codigo-de-conduta.md">Código de Conduta</a> </li>
 
                 </ul>
             </div>
@@ -159,7 +93,7 @@
                     Design, Técnicas de Desenvolvimento, Banco de Dados, Software Livre etc.</p>
 
                     <figure>
-                        <img alt="" class="img-responsive" src="https://louc.me/i/0sxCYC.jpg">
+                        <img alt="" class="img-responsive" src="assets/images/group.png">
                     </figure>
 
                 </div><!-- /.col-sm-6 -->
@@ -229,10 +163,10 @@
 
              <div class="row">
                  <div class="col-md-12">
-                     <h3 class="text-uppercase mt0 font-400">Call4Workshops: PHPMG Conference 2019</h3>
+                     <h3 class="text-uppercase mt0 font-400">Call4Papers: PHPMG Conference 2019</h3>
                      <p>Submeta suas propostas de palestras para apresentar no <b>PHPMG Conference 2019</b></p>
-                     <a class="btn btn-white" href="https://forms.gle/jHyVgXDjAg9m9wv76" rel="no-follow" target="_blank">
-                        Enviar Workshop
+                     <a class="btn btn-white" href="https://speakerfight.com/events/c4p-phpmg-conference-2019/" rel="no-follow" target="_blank">
+                        Enviar Talk
                     </a>
                  </div>
              </div><!-- /.row -->
@@ -249,7 +183,7 @@
                     </address>
                 </div>
                 <div class="col-sm-9">
-                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3559.189392737194!2d-49.088673684474!3d-26.86572319771779!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94df1e5715b8d4c1%3A0x9fb009e0598aad4a!2sUNIASSELVI!5e0!3m2!1spt-BR!2sbr!4v1556661010041!5m2!1spt-BR!2sbr" width="100%" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d240073.62483839603!2d-44.10004879892736!3d-19.91806649744105!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xa690a165324289%3A0x701d1dc8bb05fd7d!2sBelo+Horizonte+-+MG!5e0!3m2!1spt-BR!2sbr!4v1562077369381!5m2!1spt-BR!2sbr" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
                 </div>
             </div>
         </div>
@@ -261,9 +195,9 @@
                 <div class="col-md-12">
                      <p class="site-info">Desenhado e desenvolvido pela Comunidade <a href="https://www.phpsc.com.br" rel="follow">PHPSC</a> e gentilmente cedido para o PHPMG</p>
                     <ul class="social-block">
-                        <li><a href="https://twitter.com/php_sc"><i class="ion-social-twitter"></i></a></li>
-                        <li><a href="https://fb.com/santa.catarina.elephants"><i class="ion-social-facebook"></i></a></li>
-                        <li><a href="https://github.com/phpsc"><i class="ion-social-github"></i></a></li>
+                        <li><a href="https://twitter.com/phpmg"><i class="ion-social-twitter"></i></a></li>
+                        <li><a href="https://www.facebook.com/groups/128860427143188"><i class="ion-social-facebook"></i></a></li>
+                        <li><a href="https://github.com/phpmg"><i class="ion-social-github"></i></a></li>
                     </ul>
                 </div>
             </div>
