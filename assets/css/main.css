@@ -666,3 +666,32 @@ table th {
 .site-footer .social-block li a:hover, .site-footer .social-block li a:focus {
   opacity: 0.8;
 }
+/*
+* 8.0 Mobile
+*/
+
+@media screen and (max-width: 480px) {
+      .site-header {
+          height: 100%;
+          min-height: 347px;
+          display: block;
+       }
+       .site-header .intro{
+          height: 347px;
+          margin-top: 100px;
+          padding-top: 50px;
+          padding-bottom: 50px;
+       }
+       p{
+        text-align: justify;
+       }
+       address p{
+        text-align: center;
+       }
+      #mapDiv{
+        width: 335px !important;
+      }
+      .site-footer .site-info{
+        text-align: center;
+      }
+}
